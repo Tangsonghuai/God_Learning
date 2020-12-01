@@ -76,5 +76,6 @@ public class Beau {            //类名
         //构造器赋值，构造器是我后加的，可以先看其他内容
         Beau beau1=new Beau("Tony",66);
         beau1.tell();
+
     }
 }
