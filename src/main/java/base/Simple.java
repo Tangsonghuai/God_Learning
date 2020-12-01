@@ -79,6 +79,9 @@ public class Simple {
     private void method_arg(String arg) {
         System.out.println("value ARG" + arg);
     }
+    private void method_arg(String arg,int Age) {                        //这个方法名与上一个方法方法名相同，参数不同，这就叫做方法的重载
+        System.out.println("value ARG" + arg+"AGE"+Age);
+    }
 
     private String method_Back(String arg01) {   //有参有返回
         return arg01+"is the value";
