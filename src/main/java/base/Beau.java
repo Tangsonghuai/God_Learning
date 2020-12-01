@@ -12,6 +12,28 @@ public class Beau {            //类名
     /*
     * 类属性定义
     * */
+
+    /*
+    * 构造器部分，就是为类赋初始值
+    * */
+    public Beau(){
+
+    }
+    public Beau(String name02){
+        name=name02;                //只是感兴趣了写了一个构造器重载
+    }
+
+    public Beau(String name01,int age01){
+        name=name01;
+        age=age01;
+    }
+
+
+
+
+
+
+
     public static  void printInfo(){
         System.out.println("类中定义方法前声明   static 关键字就是说明此方法是类自己的方法，不需要进行实例化，例如忍者神龟游戏的房屋信息，是游戏打开的时候自动加载的，不需要实例化对象进行操作");
         System.out.println("_________程序开始运行__________");
@@ -29,7 +51,7 @@ public class Beau {            //类名
        System.out.println(name+"  "+age+"无返回值的方法");
    }
    public String tell_2(){
-       return name+"  "+age+"必须有一个String类型的返回值";   //name与age并没有被传值
+       return name+"  "+age+"必须有一个String类型的返回值";   //name与age并没有被传值，要想传值，要构造一个构造器，为类变量赋值
    }
    public String tell_2(String name){                  //方法的重载
        return name+ "Is the Better One";
@@ -51,5 +73,8 @@ public class Beau {            //类名
         System.out.println(beau.tell_2("Cloud"));      //重载方法tell_2,传值一个string类型的值，程序会自动调用 tell_2(String)
         System.out.println(beau.tell_2("Cloud",66)); //重载的又一个例子
 
+        //构造器赋值，构造器是我后加的，可以先看其他内容
+        Beau beau1=new Beau("Tony",66);
+        beau1.tell();
     }
 }
