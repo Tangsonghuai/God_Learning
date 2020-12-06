@@ -24,7 +24,7 @@ public class Beau {            //类名
     }
 
     public Beau(String name01,int age01){
-        name=name01;
+        this.name=name01;                                   //this  标注成员属性
         age=age01;
     }
 
