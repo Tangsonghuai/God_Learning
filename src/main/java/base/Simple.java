@@ -42,11 +42,12 @@ public class Simple {
          *        default:
          *             //相当于if-else语句的else语法，当内容case所有值都未命中的时候，执行default分支
          * */
-        switch (Case_2) {
-            case "Tom":
+        char re='a';
+        switch (re) {
+            case 'a':
                 System.out.println("Tom is here");
                 break;
-            case "Tony":
+            case 'b':
                 System.out.println("Tony is here");
                 break;
             default:
