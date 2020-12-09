@@ -30,7 +30,7 @@ public class static_method {
    // static 修饰的方法
    static void static_02(){
        System.out.println("Static 修饰的方法");
-   }
+   }   //类名/对象名 直接访问
 
 
 
