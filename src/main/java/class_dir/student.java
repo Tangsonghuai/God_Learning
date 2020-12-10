@@ -13,8 +13,12 @@ public class student extends person {
     public String son02(){
         return son_01;
     }
+
+
+
     public void tell(){
         //可以覆写父类方法
+        System.out.println(super.getName());   //子类方法引用父类对象
         System.out.println("子类覆写父类方法");
     }
 
