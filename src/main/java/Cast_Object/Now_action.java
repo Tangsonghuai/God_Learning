@@ -21,7 +21,7 @@ public class Now_action<T>  {
         now_action.setY(88);
         int x= now_action.getX();
         int y= now_action.getY();
-        
+
         System.out.println(x+"-- --"+y);
     }
 
