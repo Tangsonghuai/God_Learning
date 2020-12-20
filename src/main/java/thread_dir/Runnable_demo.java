@@ -28,10 +28,14 @@ public class Runnable_demo implements Runnable{
     public static void main(String[] args) {
 
 
-        Thread thread =new Thread(new Runnable_demo("Thread "));
+        Thread thread =new Thread(new Runnable_demo("Thread "),"线程命名");  //线程命名可选
         Thread thread01 =new Thread(new Runnable_demo("Other  "));
         Thread thread02 =new Thread(new Runnable_demo("Phone  "));
+
+
+
         thread01.start();
+        System.out.println(Thread.currentThread().getName());  //获取当前线程名称
         thread.start();
         thread02.start();
 
