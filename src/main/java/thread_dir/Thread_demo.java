@@ -24,9 +24,9 @@ public class Thread_demo extends Thread {
     }
 
     public static void main(String[] args) {
-        Thread_demo thread_demo = new Thread_demo("HELLO");
+        Thread thread = new Thread( new Thread_demo("HELLO"));
         System.out.println(Thread.currentThread().getName()+"   Thread 's Name");
-        thread_demo.start();
+        thread.start();
         //等同于
         new Thread_demo("线程A").start();
         new Thread_demo("线程B").start();
