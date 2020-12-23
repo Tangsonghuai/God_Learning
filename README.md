@@ -1,0 +1,3 @@
+# God_Learning
+远程上传Github
+为了给刚学java的弟弟一些指引所写的简单demo
