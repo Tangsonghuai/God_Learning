@@ -11,6 +11,10 @@ import java.io.IOException;
  * @author tangsonghuai
  * @date 2020/12/24 20:06
  */
+
+/*
+* 字节形式
+* */
 public class InputStream_demo {
     public static void main(String[] args) {
         File file = new File("D:"+File.separator+"game"+File.separator+"result.txt");
