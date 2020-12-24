@@ -24,7 +24,7 @@ public class Write_demo {
         Writer out = new FileWriter(file);
         out.write("Hello .Jommy!  ");
         out.append("WWW.BAIDU.COM");
-        out.close();
-
+//        out.close(); //文件关闭后，缓冲区的文件会进入到文件
+        out.flush();  //刷新缓冲区的数据到文件中
     }
 }
