@@ -12,7 +12,7 @@ import java.io.FileOutputStream;
  */
 
 /*
-* 文件写入
+* 文件写入  字节形式
 * */
 public class OutputStream_demo {
     public static void main(String[] args) throws Exception {
