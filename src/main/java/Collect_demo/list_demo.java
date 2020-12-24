@@ -1,4 +1,4 @@
-package Collect_demo.list;
+package Collect_demo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
